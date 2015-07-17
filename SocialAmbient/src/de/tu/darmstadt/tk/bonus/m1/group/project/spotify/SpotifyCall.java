@@ -16,6 +16,7 @@ import com.google.code.jspot.Track;
 /**
  * @author dinesh
  *
+ *Listens to events from Broker and opens spotify on systems default Browser
  */
 public class SpotifyCall {
 

@@ -13,7 +13,7 @@ import de.tu.darmstadt.tk.bonus.m1.group.project.spotify.*;
 
 /**
  * @author dinesh
- *
+ * Subscription mechanism for Spotify client on MQTT sever
  */
 public class SubscribeSpotify implements MqttCallback {
 	
