@@ -36,8 +36,10 @@ public class SpotifyCall {
         			if(null!=spotifyID) {
         				 if(Desktop.isDesktopSupported())
         					{
+        					 System.out.println("Its working, your browser should open!");
         					  Desktop.getDesktop().browse(new URI("http://open.spotify.com/track/"+spotifyID));
         					}
+        				 else{System.out.println("your system has a problem!!");}
         			}
         		}         		        		
         	}        	                       
